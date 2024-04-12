@@ -133,3 +133,27 @@ main{
         height: 100%;
     }
 }
+.topcontainer{
+    display: flex;
+    .square{
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+    }
+}
+
+.footer{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 20%;
+    
+    ul{
+        list-style: none;
+    }
+}
+.footerout{
+    background-color: black;
+}
